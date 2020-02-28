@@ -1,0 +1,36 @@
+{
+  "name": "ts-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for creating TypeScript bots with Discord.js v12 and Klasa v1.0.0-alpha",
+  "main": "dist/src/bot.js",
+  "scripts": {
+    "start": "node --harmony dist/src/bot.js",
+    "build": "tsc -p .",
+    "build-clear": "rm -rf dist && tsc -p .",
+    "test": "eslint src",
+    "lint": "eslint src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuataria/ts-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "Tuataria",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tuataria/ts-boilerplate/issues"
+  },
+  "homepage": "https://github.com/tuataria/ts-boilerplate#readme",
+  "dependencies": {
+    "discord.js": "github:discordjs/discord.js",
+    "klasa": "github:dirigeants/klasa#v1.0.0-alpha",
+    "mongodb": "^3.5.4"
+  },
+  "devDependencies": {
+    "@types/mongodb": "^3.3.16",
+    "@typescript-eslint/eslint-plugin": "^2.21.0",
+    "@typescript-eslint/parser": "^2.21.0",
+    "eslint": "^6.8.0",
+    "typescript": "^3.8.2"
+  }
+}
