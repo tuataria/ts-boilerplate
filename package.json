@@ -24,6 +24,7 @@
   "dependencies": {
     "discord.js": "github:discordjs/discord.js",
     "klasa": "github:dirigeants/klasa#v1.0.0-alpha",
+    "module-alias": "^2.2.2",
     "mongodb": "^3.5.4"
   },
   "devDependencies": {
