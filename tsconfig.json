@@ -1,9 +1,7 @@
 {
+    "extends": "eslint-config-bamboo",
     "compilerOptions": {
-        "allowJs": true,
-        "allowSyntheticDefaultImports": true,
         "baseUrl": ".",
-        "esModuleInterop": true,
         "module": "commonjs",
         "outDir": "./dist",
         "paths": {
@@ -17,10 +15,8 @@
                 "src/lib/util/*"
             ]
         },
-        "resolveJsonModule": true,
         "rootDir": "./",
-        "strict": true,
-		"target": "ES2019",
+        "target": "ES2019",
 		"types": [
 			"node",
 			"discord.js",
