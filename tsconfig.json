@@ -4,6 +4,7 @@
         "allowSyntheticDefaultImports": true,
         "baseUrl": ".",
         "esModuleInterop": true,
+        "module": "commonjs",
         "outDir": "./dist",
         "paths": {
             "@lib/*": [
@@ -11,12 +12,20 @@
             ],
             "@root/*": [
                 "*"
+            ],
+            "@utils/*": [
+                "src/lib/util/*"
             ]
         },
         "resolveJsonModule": true,
         "rootDir": "./",
-        "target": "ES2019",
-        "module": "commonjs"
+        "strict": true,
+		"target": "ES2019",
+		"types": [
+			"node",
+			"discord.js",
+			"klasa"
+		]
     },
     "exclude": [
         "**/node_modules",
