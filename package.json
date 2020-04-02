@@ -16,13 +16,13 @@
   },
   "keywords": [],
   "author": "Tuataria",
-  "license": "MIT",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/tuataria/ts-boilerplate/issues"
   },
   "homepage": "https://github.com/tuataria/ts-boilerplate#readme",
   "dependencies": {
-    "discord.js": "github:discordjs/discord.js",
+    "discord.js": "^12.1.1",
     "klasa": "github:dirigeants/klasa#v1.0.0-alpha",
     "module-alias": "^2.2.2",
     "mongodb": "^3.5.4"
